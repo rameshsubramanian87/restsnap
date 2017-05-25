@@ -1,0 +1,367 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.illumina.snaps:restsnappack:jar:1-0001
+[WARNING] 'version' contains an expression but should be a constant. @ com.illumina.snaps:restsnappack:1-${sl_build}, C:\dev\repo\ews\rest\pom.xml, line 8, column 14
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building restsnappack 1-0001
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ restsnappack ---
+[INFO] Deleting C:\dev\repo\ews\rest\target
+[INFO] 
+[INFO] --- properties-maven-plugin:1.0.0:read-project-properties (default) @ restsnappack ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (generate files) @ restsnappack ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ restsnappack ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ restsnappack ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to C:\dev\repo\ews\rest\target\classes
+[INFO] /C:/dev/repo/ews/rest/src/main/java/com/illumina/snaps/restsnappack/RestBasicAuthAccount.java: Some input files use or override a deprecated API.
+[INFO] /C:/dev/repo/ews/rest/src/main/java/com/illumina/snaps/restsnappack/RestBasicAuthAccount.java: Recompile with -Xlint:deprecation for details.
+[INFO] /C:/dev/repo/ews/rest/src/main/java/com/illumina/snaps/restsnappack/RestOauth2Account.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/dev/repo/ews/rest/src/main/java/com/illumina/snaps/restsnappack/RestOauth2Account.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- snappack-installer:4.0:generate-schema (default) @ restsnappack ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.111 s
+[INFO] Finished at: 2017-05-24T16:58:59-07:00
+[INFO] Final Memory: 57M/528M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal com.snaplogic.tools:snappack-installer:4.0:generate-schema (default) on project restsnappack: Execution default of goal com.snaplogic.tools:snappack-installer:4.0:generate-schema failed: A required class was missing while executing com.snaplogic.tools:snappack-installer:4.0:generate-schema: com/snaplogic/common/services/CascadingService
+[ERROR] -----------------------------------------------------
+[ERROR] realm =    plugin>com.snaplogic.tools:snappack-installer:4.0
+[ERROR] strategy = org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy
+[ERROR] urls[0] = file:/C:/Users/rames/.m2/repository/com/snaplogic/tools/snappack-installer/4.0/snappack-installer-4.0.jar
+[ERROR] urls[1] = file:/C:/Users/rames/.m2/repository/org/easymock/easymock/3.4/easymock-3.4.jar
+[ERROR] urls[2] = file:/C:/Users/rames/.m2/repository/org/objenesis/objenesis/2.2/objenesis-2.2.jar
+[ERROR] urls[3] = file:/C:/Users/rames/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[ERROR] urls[4] = file:/C:/Users/rames/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar
+[ERROR] urls[5] = file:/C:/Users/rames/.m2/repository/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar
+[ERROR] urls[6] = file:/C:/Users/rames/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+[ERROR] urls[7] = file:/C:/Users/rames/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+[ERROR] urls[8] = file:/C:/Users/rames/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+[ERROR] urls[9] = file:/C:/Users/rames/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+[ERROR] urls[10] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jutils/4.0/jutils-4.0.jar
+[ERROR] urls[11] = file:/C:/Users/rames/.m2/repository/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar
+[ERROR] urls[12] = file:/C:/Users/rames/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+[ERROR] urls[13] = file:/C:/Users/rames/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar
+[ERROR] urls[14] = file:/C:/Users/rames/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar
+[ERROR] urls[15] = file:/C:/Users/rames/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+[ERROR] urls[16] = file:/C:/Users/rames/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[ERROR] urls[17] = file:/C:/Users/rames/.m2/repository/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+[ERROR] urls[18] = file:/C:/Users/rames/.m2/repository/org/jdom/jdom/1.1/jdom-1.1.jar
+[ERROR] urls[19] = file:/C:/Users/rames/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.2.0/woodstox-core-asl-4.2.0.jar
+[ERROR] urls[20] = file:/C:/Users/rames/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+[ERROR] urls[21] = file:/C:/Users/rames/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar
+[ERROR] urls[22] = file:/C:/Users/rames/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar
+[ERROR] urls[23] = file:/C:/Users/rames/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar
+[ERROR] urls[24] = file:/C:/Users/rames/.m2/repository/org/scribe/scribe/1.3.2/scribe-1.3.2.jar
+[ERROR] urls[25] = file:/C:/Users/rames/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+[ERROR] urls[26] = file:/C:/Users/rames/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[ERROR] urls[27] = file:/C:/Users/rames/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar
+[ERROR] urls[28] = file:/C:/Users/rames/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+[ERROR] urls[29] = file:/C:/Users/rames/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+[ERROR] urls[30] = file:/C:/Users/rames/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar
+[ERROR] urls[31] = file:/C:/Users/rames/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+[ERROR] urls[32] = file:/C:/Users/rames/.m2/repository/com/jayway/jsonpath/json-path/0.8.6/json-path-0.8.6.jar
+[ERROR] urls[33] = file:/C:/Users/rames/.m2/repository/org/antlr/antlr4-runtime/4.6/antlr4-runtime-4.6.jar
+[ERROR] urls[34] = file:/C:/Users/rames/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+[ERROR] urls[35] = file:/C:/Users/rames/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+[ERROR] urls[36] = file:/C:/Users/rames/.m2/repository/net/minidev/json-smart/1.1.1/json-smart-1.1.1.jar
+[ERROR] urls[37] = file:/C:/Users/rames/.m2/repository/de/odysseus/staxon/staxon/1.0/staxon-1.0.jar
+[ERROR] urls[38] = file:/C:/Users/rames/.m2/repository/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.jar
+[ERROR] urls[39] = file:/C:/Users/rames/.m2/repository/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8-dom.jar
+[ERROR] urls[40] = file:/C:/Users/rames/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar
+[ERROR] urls[41] = file:/C:/Users/rames/.m2/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar
+[ERROR] urls[42] = file:/C:/Users/rames/.m2/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar
+[ERROR] urls[43] = file:/C:/Users/rames/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
+[ERROR] urls[44] = file:/C:/Users/rames/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.52/bcpkix-jdk15on-1.52.jar
+[ERROR] urls[45] = file:/C:/Users/rames/.m2/repository/xom/xom/1.2.5/xom-1.2.5.jar
+[ERROR] urls[46] = file:/C:/Users/rames/.m2/repository/org/mapdb/mapdb/1.0.7/mapdb-1.0.7.jar
+[ERROR] urls[47] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jcommon/4.0/jcommon-4.0.jar
+[ERROR] urls[48] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jexpression/4.0/jexpression-4.0.jar
+[ERROR] urls[49] = file:/C:/Users/rames/.m2/repository/de/christophkraemer/rhino-script-engine/1.1.1/rhino-script-engine-1.1.1.jar
+[ERROR] urls[50] = file:/C:/Users/rames/.m2/repository/org/mozilla/rhino/1.7R5/rhino-1.7R5.jar
+[ERROR] urls[51] = file:/C:/Users/rames/.m2/repository/net/iharder/base64/2.3.8/base64-2.3.8.jar
+[ERROR] urls[52] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jpipe/4.0/jpipe-4.0.jar
+[ERROR] urls[53] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jinstrument/4.0/jinstrument-4.0.jar
+[ERROR] urls[54] = file:/C:/Users/rames/.m2/repository/org/jboss/resteasy/jaxrs-api/3.0.12.Final/jaxrs-api-3.0.12.Final.jar
+[ERROR] urls[55] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/kryo/3.0.3/kryo-3.0.3.jar
+[ERROR] urls[56] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/reflectasm/1.10.1/reflectasm-1.10.1.jar
+[ERROR] urls[57] = file:/C:/Users/rames/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+[ERROR] urls[58] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar
+[ERROR] urls[59] = file:/C:/Users/rames/.m2/repository/com/yammer/metrics/metrics-core/2.1.3/metrics-core-2.1.3.jar
+[ERROR] urls[60] = file:/C:/Users/rames/.m2/repository/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+[ERROR] urls[61] = file:/C:/Users/rames/.m2/repository/commons-net/commons-net/3.3/commons-net-3.3.jar
+[ERROR] urls[62] = file:/C:/Users/rames/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.4.4/jackson-datatype-joda-2.4.4.jar
+[ERROR] urls[63] = file:/C:/Users/rames/.m2/repository/de/undercouch/bson4jackson/2.5.0/bson4jackson-2.5.0.jar
+[ERROR] urls[64] = file:/C:/Users/rames/.m2/repository/commons-validator/commons-validator/1.4.0/commons-validator-1.4.0.jar
+[ERROR] urls[65] = file:/C:/Users/rames/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+[ERROR] urls[66] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk/1.10.47/aws-java-sdk-1.10.47.jar
+[ERROR] urls[67] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-support/1.10.47/aws-java-sdk-support-1.10.47.jar
+[ERROR] urls[68] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-simpledb/1.10.47/aws-java-sdk-simpledb-1.10.47.jar
+[ERROR] urls[69] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-simpleworkflow/1.10.47/aws-java-sdk-simpleworkflow-1.10.47.jar
+[ERROR] urls[70] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-storagegateway/1.10.47/aws-java-sdk-storagegateway-1.10.47.jar
+[ERROR] urls[71] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-route53/1.10.47/aws-java-sdk-route53-1.10.47.jar
+[ERROR] urls[72] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.10.47/aws-java-sdk-s3-1.10.47.jar
+[ERROR] urls[73] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-importexport/1.10.47/aws-java-sdk-importexport-1.10.47.jar
+[ERROR] urls[74] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-sts/1.10.47/aws-java-sdk-sts-1.10.47.jar
+[ERROR] urls[75] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-sqs/1.10.47/aws-java-sdk-sqs-1.10.47.jar
+[ERROR] urls[76] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-rds/1.10.47/aws-java-sdk-rds-1.10.47.jar
+[ERROR] urls[77] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-redshift/1.10.47/aws-java-sdk-redshift-1.10.47.jar
+[ERROR] urls[78] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-elasticbeanstalk/1.10.47/aws-java-sdk-elasticbeanstalk-1.10.47.jar
+[ERROR] urls[79] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-glacier/1.10.47/aws-java-sdk-glacier-1.10.47.jar
+[ERROR] urls[80] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-iam/1.10.47/aws-java-sdk-iam-1.10.47.jar
+[ERROR] urls[81] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-datapipeline/1.10.47/aws-java-sdk-datapipeline-1.10.47.jar
+[ERROR] urls[82] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-elasticloadbalancing/1.10.47/aws-java-sdk-elasticloadbalancing-1.10.47.jar
+[ERROR] urls[83] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-emr/1.10.47/aws-java-sdk-emr-1.10.47.jar
+[ERROR] urls[84] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-elasticache/1.10.47/aws-java-sdk-elasticache-1.10.47.jar
+[ERROR] urls[85] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-elastictranscoder/1.10.47/aws-java-sdk-elastictranscoder-1.10.47.jar
+[ERROR] urls[86] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-ec2/1.10.47/aws-java-sdk-ec2-1.10.47.jar
+[ERROR] urls[87] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.10.47/aws-java-sdk-dynamodb-1.10.47.jar
+[ERROR] urls[88] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-sns/1.10.47/aws-java-sdk-sns-1.10.47.jar
+[ERROR] urls[89] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudtrail/1.10.47/aws-java-sdk-cloudtrail-1.10.47.jar
+[ERROR] urls[90] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatch/1.10.47/aws-java-sdk-cloudwatch-1.10.47.jar
+[ERROR] urls[91] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-logs/1.10.47/aws-java-sdk-logs-1.10.47.jar
+[ERROR] urls[92] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-events/1.10.47/aws-java-sdk-events-1.10.47.jar
+[ERROR] urls[93] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cognitoidentity/1.10.47/aws-java-sdk-cognitoidentity-1.10.47.jar
+[ERROR] urls[94] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cognitosync/1.10.47/aws-java-sdk-cognitosync-1.10.47.jar
+[ERROR] urls[95] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-directconnect/1.10.47/aws-java-sdk-directconnect-1.10.47.jar
+[ERROR] urls[96] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudformation/1.10.47/aws-java-sdk-cloudformation-1.10.47.jar
+[ERROR] urls[97] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudfront/1.10.47/aws-java-sdk-cloudfront-1.10.47.jar
+[ERROR] urls[98] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-kinesis/1.10.47/aws-java-sdk-kinesis-1.10.47.jar
+[ERROR] urls[99] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-opsworks/1.10.47/aws-java-sdk-opsworks-1.10.47.jar
+[ERROR] urls[100] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-ses/1.10.47/aws-java-sdk-ses-1.10.47.jar
+[ERROR] urls[101] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-autoscaling/1.10.47/aws-java-sdk-autoscaling-1.10.47.jar
+[ERROR] urls[102] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudsearch/1.10.47/aws-java-sdk-cloudsearch-1.10.47.jar
+[ERROR] urls[103] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatchmetrics/1.10.47/aws-java-sdk-cloudwatchmetrics-1.10.47.jar
+[ERROR] urls[104] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-swf-libraries/1.10.47/aws-java-sdk-swf-libraries-1.10.47.jar
+[ERROR] urls[105] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-codedeploy/1.10.47/aws-java-sdk-codedeploy-1.10.47.jar
+[ERROR] urls[106] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-codepipeline/1.10.47/aws-java-sdk-codepipeline-1.10.47.jar
+[ERROR] urls[107] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.10.47/aws-java-sdk-kms-1.10.47.jar
+[ERROR] urls[108] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-config/1.10.47/aws-java-sdk-config-1.10.47.jar
+[ERROR] urls[109] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-lambda/1.10.47/aws-java-sdk-lambda-1.10.47.jar
+[ERROR] urls[110] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-ecs/1.10.47/aws-java-sdk-ecs-1.10.47.jar
+[ERROR] urls[111] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-ecr/1.10.47/aws-java-sdk-ecr-1.10.47.jar
+[ERROR] urls[112] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-cloudhsm/1.10.47/aws-java-sdk-cloudhsm-1.10.47.jar
+[ERROR] urls[113] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-ssm/1.10.47/aws-java-sdk-ssm-1.10.47.jar
+[ERROR] urls[114] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-workspaces/1.10.47/aws-java-sdk-workspaces-1.10.47.jar
+[ERROR] urls[115] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-machinelearning/1.10.47/aws-java-sdk-machinelearning-1.10.47.jar
+[ERROR] urls[116] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-directory/1.10.47/aws-java-sdk-directory-1.10.47.jar
+[ERROR] urls[117] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-efs/1.10.47/aws-java-sdk-efs-1.10.47.jar
+[ERROR] urls[118] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-codecommit/1.10.47/aws-java-sdk-codecommit-1.10.47.jar
+[ERROR] urls[119] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-devicefarm/1.10.47/aws-java-sdk-devicefarm-1.10.47.jar
+[ERROR] urls[120] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-elasticsearch/1.10.47/aws-java-sdk-elasticsearch-1.10.47.jar
+[ERROR] urls[121] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-waf/1.10.47/aws-java-sdk-waf-1.10.47.jar
+[ERROR] urls[122] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-marketplacecommerceanalytics/1.10.47/aws-java-sdk-marketplacecommerceanalytics-1.10.47.jar
+[ERROR] urls[123] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-inspector/1.10.47/aws-java-sdk-inspector-1.10.47.jar
+[ERROR] urls[124] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-iot/1.10.47/aws-java-sdk-iot-1.10.47.jar
+[ERROR] urls[125] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-api-gateway/1.10.47/aws-java-sdk-api-gateway-1.10.47.jar
+[ERROR] urls[126] = file:/C:/Users/rames/.m2/repository/com/amazonaws/aws-java-sdk-core/1.10.47/aws-java-sdk-core-1.10.47.jar
+[ERROR] urls[127] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.0.v20161208/jetty-webapp-9.4.0.v20161208.jar
+[ERROR] urls[128] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.0.v20161208/jetty-xml-9.4.0.v20161208.jar
+[ERROR] urls[129] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-util/9.4.0.v20161208/jetty-util-9.4.0.v20161208.jar
+[ERROR] urls[130] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.0.v20161208/jetty-servlet-9.4.0.v20161208.jar
+[ERROR] urls[131] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-security/9.4.0.v20161208/jetty-security-9.4.0.v20161208.jar
+[ERROR] urls[132] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-server/9.4.0.v20161208/jetty-server-9.4.0.v20161208.jar
+[ERROR] urls[133] = file:/C:/Users/rames/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+[ERROR] urls[134] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-http/9.4.0.v20161208/jetty-http-9.4.0.v20161208.jar
+[ERROR] urls[135] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/jetty-io/9.4.0.v20161208/jetty-io-9.4.0.v20161208.jar
+[ERROR] urls[136] = file:/C:/Users/rames/.m2/repository/com/mchange/c3p0/0.9.2.1/c3p0-0.9.2.1.jar
+[ERROR] urls[137] = file:/C:/Users/rames/.m2/repository/com/mchange/mchange-commons-java/0.2.3.4/mchange-commons-java-0.2.3.4.jar
+[ERROR] urls[138] = file:/C:/Users/rames/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar
+[ERROR] urls[139] = file:/C:/Users/rames/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar
+[ERROR] urls[140] = file:/C:/Users/rames/.m2/repository/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar
+[ERROR] urls[141] = file:/C:/Users/rames/.m2/repository/com/fasterxml/uuid/java-uuid-generator/3.1.3/java-uuid-generator-3.1.3.jar
+[ERROR] urls[142] = file:/C:/Users/rames/.m2/repository/com/jcraft/jsch/0.1.51/jsch-0.1.51.jar
+[ERROR] urls[143] = file:/C:/Users/rames/.m2/repository/javax/jms/javax.jms-api/2.0/javax.jms-api-2.0.jar
+[ERROR] urls[144] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-common/2.7.0/hadoop-common-2.7.0.jar
+[ERROR] urls[145] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-annotations/2.7.0/hadoop-annotations-2.7.0.jar
+[ERROR] urls[146] = file:/C:/Program%20Files/Java/jdk1.8.0_111/jre/../lib/tools.jar
+[ERROR] urls[147] = file:/C:/Users/rames/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar
+[ERROR] urls[148] = file:/C:/Users/rames/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar
+[ERROR] urls[149] = file:/C:/Users/rames/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+[ERROR] urls[150] = file:/C:/Users/rames/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+[ERROR] urls[151] = file:/C:/Users/rames/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar
+[ERROR] urls[152] = file:/C:/Users/rames/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar
+[ERROR] urls[153] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar
+[ERROR] urls[154] = file:/C:/Users/rames/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar
+[ERROR] urls[155] = file:/C:/Users/rames/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar
+[ERROR] urls[156] = file:/C:/Users/rames/.m2/repository/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar
+[ERROR] urls[157] = file:/C:/Users/rames/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar
+[ERROR] urls[158] = file:/C:/Users/rames/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar
+[ERROR] urls[159] = file:/C:/Users/rames/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+[ERROR] urls[160] = file:/C:/Users/rames/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[ERROR] urls[161] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-auth/2.7.0/hadoop-auth-2.7.0.jar
+[ERROR] urls[162] = file:/C:/Users/rames/.m2/repository/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar
+[ERROR] urls[163] = file:/C:/Users/rames/.m2/repository/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar
+[ERROR] urls[164] = file:/C:/Users/rames/.m2/repository/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar
+[ERROR] urls[165] = file:/C:/Users/rames/.m2/repository/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar
+[ERROR] urls[166] = file:/C:/Users/rames/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
+[ERROR] urls[167] = file:/C:/Users/rames/.m2/repository/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar
+[ERROR] urls[168] = file:/C:/Users/rames/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar
+[ERROR] urls[169] = file:/C:/Users/rames/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar
+[ERROR] urls[170] = file:/C:/Users/rames/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar
+[ERROR] urls[171] = file:/C:/Users/rames/.m2/repository/jcifs/jcifs/1.3.17/jcifs-1.3.17.jar
+[ERROR] urls[172] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.7.0/hadoop-hdfs-2.7.0.jar
+[ERROR] urls[173] = file:/C:/Users/rames/.m2/repository/commons-daemon/commons-daemon/1.0.13/commons-daemon-1.0.13.jar
+[ERROR] urls[174] = file:/C:/Users/rames/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+[ERROR] urls[175] = file:/C:/Users/rames/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+[ERROR] urls[176] = file:/C:/Users/rames/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar
+[ERROR] urls[177] = file:/C:/Users/rames/.m2/repository/com/microsoft/azure/azure-storage/2.2.0/azure-storage-2.2.0.jar
+[ERROR] urls[178] = file:/C:/Users/rames/.m2/repository/net/jodah/failsafe/0.9.3/failsafe-0.9.3.jar
+[ERROR] urls[179] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jsnapi/4.0/jsnapi-4.0.jar
+[ERROR] urls[180] = file:/C:/Users/rames/.m2/repository/com/ning/async-http-client/1.8.11/async-http-client-1.8.11.jar
+[ERROR] urls[181] = file:/C:/Users/rames/.m2/repository/io/netty/netty/3.9.2.Final/netty-3.9.2.Final.jar
+[ERROR] urls[182] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jsdk/4.0/jsdk-4.0.jar
+[ERROR] urls[183] = file:/C:/Users/rames/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar
+[ERROR] urls[184] = file:/C:/Users/rames/.m2/repository/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar
+[ERROR] urls[185] = file:/C:/Users/rames/.m2/repository/com/snaplogic/jschema/4.0/jschema-4.0.jar
+[ERROR] urls[186] = file:/C:/Users/rames/.m2/repository/com/google/inject/extensions/guice-multibindings/4.0-beta4/guice-multibindings-4.0-beta4.jar
+[ERROR] urls[187] = file:/C:/Users/rames/.m2/repository/cascading/cascading-core/2.6.0/cascading-core-2.6.0.jar
+[ERROR] urls[188] = file:/C:/Users/rames/.m2/repository/riffle/riffle/0.1-dev/riffle-0.1-dev.jar
+[ERROR] urls[189] = file:/C:/Users/rames/.m2/repository/thirdparty/jgrapht-jdk1.6/0.8.1/jgrapht-jdk1.6-0.8.1.jar
+[ERROR] urls[190] = file:/C:/Users/rames/.m2/repository/org/codehaus/janino/janino/2.7.5/janino-2.7.5.jar
+[ERROR] urls[191] = file:/C:/Users/rames/.m2/repository/org/codehaus/janino/commons-compiler/2.7.5/commons-compiler-2.7.5.jar
+[ERROR] urls[192] = file:/C:/Users/rames/.m2/repository/cascading/cascading-hadoop2-mr1/2.6.0/cascading-hadoop2-mr1-2.6.0.jar
+[ERROR] urls[193] = file:/C:/Users/rames/.m2/repository/org/apache/spark/spark-core_2.10/1.5.0/spark-core_2.10-1.5.0.jar
+[ERROR] urls[194] = file:/C:/Users/rames/.m2/repository/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar
+[ERROR] urls[195] = file:/C:/Users/rames/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar
+[ERROR] urls[196] = file:/C:/Users/rames/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar
+[ERROR] urls[197] = file:/C:/Users/rames/.m2/repository/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar
+[ERROR] urls[198] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar
+[ERROR] urls[199] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar
+[ERROR] urls[200] = file:/C:/Users/rames/.m2/repository/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar
+[ERROR] urls[201] = file:/C:/Users/rames/.m2/repository/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar
+[ERROR] urls[202] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar
+[ERROR] urls[203] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar
+[ERROR] urls[204] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar
+[ERROR] urls[205] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar
+[ERROR] urls[206] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar
+[ERROR] urls[207] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.9/jersey-test-framework-core-1.9.jar
+[ERROR] urls[208] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar
+[ERROR] urls[209] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-grizzly2/1.9/jersey-grizzly2-1.9.jar
+[ERROR] urls[210] = file:/C:/Users/rames/.m2/repository/org/glassfish/grizzly/grizzly-http/2.1.2/grizzly-http-2.1.2.jar
+[ERROR] urls[211] = file:/C:/Users/rames/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.1.2/grizzly-framework-2.1.2.jar
+[ERROR] urls[212] = file:/C:/Users/rames/.m2/repository/org/glassfish/gmbal/gmbal-api-only/3.0.0-b023/gmbal-api-only-3.0.0-b023.jar
+[ERROR] urls[213] = file:/C:/Users/rames/.m2/repository/org/glassfish/external/management-api/3.0.0-b012/management-api-3.0.0-b012.jar
+[ERROR] urls[214] = file:/C:/Users/rames/.m2/repository/org/glassfish/grizzly/grizzly-http-server/2.1.2/grizzly-http-server-2.1.2.jar
+[ERROR] urls[215] = file:/C:/Users/rames/.m2/repository/org/glassfish/grizzly/grizzly-rcm/2.1.2/grizzly-rcm-2.1.2.jar
+[ERROR] urls[216] = file:/C:/Users/rames/.m2/repository/org/glassfish/grizzly/grizzly-http-servlet/2.1.2/grizzly-http-servlet-2.1.2.jar
+[ERROR] urls[217] = file:/C:/Users/rames/.m2/repository/org/glassfish/javax.servlet/3.1/javax.servlet-3.1.jar
+[ERROR] urls[218] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar
+[ERROR] urls[219] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar
+[ERROR] urls[220] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar
+[ERROR] urls[221] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar
+[ERROR] urls[222] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar
+[ERROR] urls[223] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar
+[ERROR] urls[224] = file:/C:/Users/rames/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar
+[ERROR] urls[225] = file:/C:/Users/rames/.m2/repository/org/apache/spark/spark-launcher_2.10/1.5.0/spark-launcher_2.10-1.5.0.jar
+[ERROR] urls[226] = file:/C:/Users/rames/.m2/repository/org/apache/spark/spark-network-common_2.10/1.5.0/spark-network-common_2.10-1.5.0.jar
+[ERROR] urls[227] = file:/C:/Users/rames/.m2/repository/org/apache/spark/spark-network-shuffle_2.10/1.5.0/spark-network-shuffle_2.10-1.5.0.jar
+[ERROR] urls[228] = file:/C:/Users/rames/.m2/repository/org/apache/spark/spark-unsafe_2.10/1.5.0/spark-unsafe_2.10-1.5.0.jar
+[ERROR] urls[229] = file:/C:/Users/rames/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar
+[ERROR] urls[230] = file:/C:/Users/rames/.m2/repository/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar
+[ERROR] urls[231] = file:/C:/Users/rames/.m2/repository/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar
+[ERROR] urls[232] = file:/C:/Users/rames/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[ERROR] urls[233] = file:/C:/Users/rames/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar
+[ERROR] urls[234] = file:/C:/Users/rames/.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+[ERROR] urls[235] = file:/C:/Users/rames/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar
+[ERROR] urls[236] = file:/C:/Users/rames/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+[ERROR] urls[237] = file:/C:/Users/rames/.m2/repository/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar
+[ERROR] urls[238] = file:/C:/Users/rames/.m2/repository/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar
+[ERROR] urls[239] = file:/C:/Users/rames/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar
+[ERROR] urls[240] = file:/C:/Users/rames/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar
+[ERROR] urls[241] = file:/C:/Users/rames/.m2/repository/org/roaringbitmap/RoaringBitmap/0.4.5/RoaringBitmap-0.4.5.jar
+[ERROR] urls[242] = file:/C:/Users/rames/.m2/repository/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar
+[ERROR] urls[243] = file:/C:/Users/rames/.m2/repository/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar
+[ERROR] urls[244] = file:/C:/Users/rames/.m2/repository/com/typesafe/config/1.2.1/config-1.2.1.jar
+[ERROR] urls[245] = file:/C:/Users/rames/.m2/repository/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
+[ERROR] urls[246] = file:/C:/Users/rames/.m2/repository/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar
+[ERROR] urls[247] = file:/C:/Users/rames/.m2/repository/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar
+[ERROR] urls[248] = file:/C:/Users/rames/.m2/repository/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar
+[ERROR] urls[249] = file:/C:/Users/rames/.m2/repository/org/json4s/json4s-core_2.10/3.2.10/json4s-core_2.10-3.2.10.jar
+[ERROR] urls[250] = file:/C:/Users/rames/.m2/repository/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10.jar
+[ERROR] urls[251] = file:/C:/Users/rames/.m2/repository/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar
+[ERROR] urls[252] = file:/C:/Users/rames/.m2/repository/org/scala-lang/scala-compiler/2.10.0/scala-compiler-2.10.0.jar
+[ERROR] urls[253] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar
+[ERROR] urls[254] = file:/C:/Users/rames/.m2/repository/asm/asm/3.1/asm-3.1.jar
+[ERROR] urls[255] = file:/C:/Users/rames/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+[ERROR] urls[256] = file:/C:/Users/rames/.m2/repository/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar
+[ERROR] urls[257] = file:/C:/Users/rames/.m2/repository/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar
+[ERROR] urls[258] = file:/C:/Users/rames/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar
+[ERROR] urls[259] = file:/C:/Users/rames/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar
+[ERROR] urls[260] = file:/C:/Users/rames/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar
+[ERROR] urls[261] = file:/C:/Users/rames/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar
+[ERROR] urls[262] = file:/C:/Users/rames/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar
+[ERROR] urls[263] = file:/C:/Users/rames/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar
+[ERROR] urls[264] = file:/C:/Users/rames/.m2/repository/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar
+[ERROR] urls[265] = file:/C:/Users/rames/.m2/repository/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+[ERROR] urls[266] = file:/C:/Users/rames/.m2/repository/org/tachyonproject/tachyon-client/0.7.1/tachyon-client-0.7.1.jar
+[ERROR] urls[267] = file:/C:/Users/rames/.m2/repository/org/tachyonproject/tachyon-underfs-hdfs/0.7.1/tachyon-underfs-hdfs-0.7.1.jar
+[ERROR] urls[268] = file:/C:/Users/rames/.m2/repository/org/tachyonproject/tachyon-underfs-local/0.7.1/tachyon-underfs-local-0.7.1.jar
+[ERROR] urls[269] = file:/C:/Users/rames/.m2/repository/net/razorvine/pyrolite/4.4/pyrolite-4.4.jar
+[ERROR] urls[270] = file:/C:/Users/rames/.m2/repository/net/sf/py4j/py4j/0.8.2.1/py4j-0.8.2.1.jar
+[ERROR] urls[271] = file:/C:/Users/rames/.m2/repository/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar
+[ERROR] urls[272] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar
+[ERROR] urls[273] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar
+[ERROR] urls[274] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar
+[ERROR] urls[275] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar
+[ERROR] urls[276] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar
+[ERROR] urls[277] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar
+[ERROR] urls[278] = file:/C:/Users/rames/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.11/jackson-mapper-asl-1.9.11.jar
+[ERROR] urls[279] = file:/C:/Users/rames/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.11/jackson-core-asl-1.9.11.jar
+[ERROR] urls[280] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-cascading/1.8.1/parquet-cascading-1.8.1.jar
+[ERROR] urls[281] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-thrift/1.8.1/parquet-thrift-1.8.1.jar
+[ERROR] urls[282] = file:/C:/Users/rames/.m2/repository/com/twitter/elephantbird/elephant-bird-core/4.4/elephant-bird-core-4.4.jar
+[ERROR] urls[283] = file:/C:/Users/rames/.m2/repository/com/twitter/elephantbird/elephant-bird-hadoop-compat/4.4/elephant-bird-hadoop-compat-4.4.jar
+[ERROR] urls[284] = file:/C:/Users/rames/.m2/repository/org/apache/thrift/libthrift/0.7.0/libthrift-0.7.0.jar
+[ERROR] urls[285] = file:/C:/Users/rames/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+[ERROR] urls[286] = file:/C:/Users/rames/.m2/repository/com/hadoop/gplcompression/hadoop-lzo/0.4.16/hadoop-lzo-0.4.16.jar
+[ERROR] urls[287] = file:/C:/Users/rames/.m2/repository/com/twitter/elephantbird/elephant-bird-pig/4.4/elephant-bird-pig-4.4.jar
+[ERROR] urls[288] = file:/C:/Users/rames/.m2/repository/org/apache/parquet/parquet-pig/1.8.1/parquet-pig-1.8.1.jar
+[ERROR] urls[289] = file:/C:/Users/rames/.m2/repository/com/twitter/parquet-format/2.2.0/parquet-format-2.2.0.jar
+[ERROR] urls[290] = file:/C:/Users/rames/.m2/repository/org/ow2/easywsdl/easywsdl-wsdl/2.3/easywsdl-wsdl-2.3.jar
+[ERROR] urls[291] = file:/C:/Users/rames/.m2/repository/com/ebmwebsourcing/easycommons/easycommons.uri/1.1/easycommons.uri-1.1.jar
+[ERROR] urls[292] = file:/C:/Users/rames/.m2/repository/com/ebmwebsourcing/easycommons/easycommons.logger/1.1/easycommons.logger-1.1.jar
+[ERROR] urls[293] = file:/C:/Users/rames/.m2/repository/com/ebmwebsourcing/easycommons/easycommons.xml/1.1/easycommons.xml-1.1.jar
+[ERROR] urls[294] = file:/C:/Users/rames/.m2/repository/org/apache/santuario/xmlsec/1.4.2/xmlsec-1.4.2.jar
+[ERROR] urls[295] = file:/C:/Users/rames/.m2/repository/org/ow2/easywsdl/easywsdl-schema/2.3/easywsdl-schema-2.3.jar
+[ERROR] urls[296] = file:/C:/Users/rames/.m2/repository/org/jvnet/jaxb2_commons/runtime/0.4.1.5/runtime-0.4.1.5.jar
+[ERROR] urls[297] = file:/C:/Users/rames/.m2/repository/com/sun/xml/bind/jaxb-impl/2.1.10/jaxb-impl-2.1.10.jar
+[ERROR] urls[298] = file:/C:/Users/rames/.m2/repository/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar
+[ERROR] urls[299] = file:/C:/Users/rames/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+[ERROR] urls[300] = file:/C:/Users/rames/.m2/repository/org/ow2/easywsdl/easywsdl-ext-wsdl4complexwsdl/2.3/easywsdl-ext-wsdl4complexwsdl-2.3.jar
+[ERROR] urls[301] = file:/C:/Users/rames/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+[ERROR] urls[302] = file:/C:/Users/rames/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar
+[ERROR] urls[303] = file:/C:/Users/rames/.m2/repository/org/slf4j/slf4j-nop/1.7.5/slf4j-nop-1.7.5.jar
+[ERROR] urls[304] = file:/C:/Users/rames/.m2/repository/com/sun/xsom/xsom/20100725/xsom-20100725.jar
+[ERROR] urls[305] = file:/C:/Users/rames/.m2/repository/relaxngDatatype/relaxngDatatype/20020414/relaxngDatatype-20020414.jar
+[ERROR] urls[306] = file:/C:/Users/rames/.m2/repository/com/sun/xml/relaxngDatatype/1.0/relaxngDatatype-1.0.jar
+[ERROR] Number of foreign imports: 1
+[ERROR] import: Entry[import  from realm ClassRealm[maven.api, parent: null]]
+[ERROR] 
+[ERROR] -----------------------------------------------------: com.snaplogic.common.services.CascadingService
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginContainerException
